@@ -1,0 +1,333 @@
+2025-04-11 22:27:26,753 - asyncio - DEBUG - Using selector: KqueueSelector
+2025-04-11 22:27:33,731 - asyncio - DEBUG - Using selector: KqueueSelector
+2025-04-11 22:27:44,495 - asyncio - DEBUG - Using selector: KqueueSelector
+2025-04-11 22:27:59,238 - asyncio - DEBUG - Using selector: KqueueSelector
+2025-04-11 22:28:25,180 - asyncio - DEBUG - Using selector: KqueueSelector
+2025-04-11 22:30:38,161 - asyncio - DEBUG - Using selector: KqueueSelector
+2025-04-11 22:30:45,711 - asyncio - DEBUG - Using selector: KqueueSelector
+2025-04-11 22:31:08,243 - app.services.selenium_service - ERROR - Error initializing Selenium WebDriver: No module named 'selenium'
+2025-04-11 22:31:08,244 - app.services.research_service - INFO - Starting batch research for 1 startups
+2025-04-11 22:31:08,244 - app.services.research_service - INFO - Starting research for: OpenAI
+2025-04-11 22:31:08,244 - app.services.research_service - INFO - Searching for OpenAI website...
+2025-04-11 22:31:08,244 - app.services.scraper_service - INFO - Calling API to find website for: OpenAI
+2025-04-11 22:31:08,688 - app.services.scraper_service - INFO - Trying Wikipedia fallback: https://en.wikipedia.org/wiki/OpenAI
+2025-04-11 22:31:08,689 - app.services.research_service - INFO - Found website URL: https://en.wikipedia.org/wiki/OpenAI
+2025-04-11 22:31:08,689 - app.services.research_service - INFO - Scraping website data from https://en.wikipedia.org/wiki/OpenAI...
+2025-04-11 22:31:08,689 - app.services.scraper_service - INFO - Scraping website: https://en.wikipedia.org/wiki/OpenAI
+2025-04-11 22:31:08,887 - app.services.scraper_service - INFO - Found social media: twitter - https://www.vox.com/future-perfect/2024/5/17/24158403/openai-resignations-ai-safety-ilya-sutskever-jan-leike-artificial-intelligence
+2025-04-11 22:31:08,887 - app.services.scraper_service - INFO - Found social media: twitter - https://web.archive.org/web/20240518205458/https://www.vox.com/future-perfect/2024/5/17/24158403/openai-resignations-ai-safety-ilya-sutskever-jan-leike-artificial-intelligence
+2025-04-11 22:31:08,887 - app.services.scraper_service - INFO - Found social media: twitter - https://www.vox.com/future-perfect/2018/11/2/18053418/elon-musk-artificial-intelligence-google-deepmind-openai
+2025-04-11 22:31:08,887 - app.services.scraper_service - INFO - Found social media: twitter - https://web.archive.org/web/20210423095445/https://www.vox.com/future-perfect/2018/11/2/18053418/elon-musk-artificial-intelligence-google-deepmind-openai
+2025-04-11 22:31:08,887 - app.services.scraper_service - INFO - Found social media: twitter - https://www.vox.com/future-perfect/380117/openai-microsoft-sam-altman-nonprofit-for-profit-foundation-artificial-intelligence
+2025-04-11 22:31:08,887 - app.services.scraper_service - INFO - Found social media: twitter - https://web.archive.org/web/20241203052435/https://www.vox.com/future-perfect/380117/openai-microsoft-sam-altman-nonprofit-for-profit-foundation-artificial-intelligence
+2025-04-11 22:31:08,888 - app.services.scraper_service - INFO - Found social media: twitter - https://www.vox.com/future-perfect/2023/3/25/23655082/ai-openai-gpt-4-safety-microsoft-facebook-meta
+2025-04-11 22:31:08,888 - app.services.scraper_service - INFO - Found social media: twitter - https://web.archive.org/web/20230328192017/https://www.vox.com/future-perfect/2023/3/25/23655082/ai-openai-gpt-4-safety-microsoft-facebook-meta
+2025-04-11 22:31:08,888 - app.services.scraper_service - INFO - Found social media: twitter - https://mobile.twitter.com/alexanderdhall/status/1276186528264392707
+2025-04-11 22:31:08,888 - app.services.scraper_service - INFO - Found social media: twitter - https://web.archive.org/web/20230203201107/https://mobile.twitter.com/alexanderdhall/status/1276186528264392707
+2025-04-11 22:31:08,888 - app.services.scraper_service - INFO - Found social media: twitter - https://twitter.com/miramurati/status/1599796191243669504
+2025-04-11 22:31:08,888 - app.services.scraper_service - INFO - Found social media: twitter - https://web.archive.org/web/20221214090229/https://twitter.com/miramurati/status/1599796191243669504
+2025-04-11 22:31:08,888 - app.services.scraper_service - INFO - Found social media: twitter - https://www.vox.com/future-perfect/2024/5/17/24158478/openai-departures-sam-altman-employees-chatgpt-release
+2025-04-11 22:31:08,888 - app.services.scraper_service - INFO - Found social media: twitter - https://web.archive.org/web/20240518221431/https://www.vox.com/future-perfect/2024/5/17/24158478/openai-departures-sam-altman-employees-chatgpt-release
+2025-04-11 22:31:08,888 - app.services.scraper_service - INFO - Found social media: twitter - https://www.vox.com/future-perfect/351132/openai-vested-equity-nda-sam-altman-documents-employees
+2025-04-11 22:31:08,889 - app.services.scraper_service - INFO - Found social media: twitter - https://web.archive.org/web/20240601161425/https://www.vox.com/future-perfect/351132/openai-vested-equity-nda-sam-altman-documents-employees
+2025-04-11 22:31:08,910 - app.services.research_service - INFO - Website data: {'website': 'https://en.wikipedia.org/wiki/OpenAI', 'description': None, 'products': [], 'social_media': {'twitter': 'https://web.archive.org/web/20240601161425/https://www.vox.com/future-perfect/351132/openai-vested-equity-nda-sam-altman-documents-employees'}}
+2025-04-11 22:31:08,910 - app.services.research_service - INFO - Searching for OpenAI info...
+2025-04-11 22:31:08,910 - app.services.scraper_service - INFO - Searching Wikipedia for: OpenAI
+2025-04-11 22:31:09,633 - app.services.scraper_service - INFO - Found Wikipedia page for OpenAI
+2025-04-11 22:31:09,634 - app.services.scraper_service - INFO - Found headquarters: San Francisco, California
+2025-04-11 22:31:09,635 - app.services.scraper_service - INFO - Found industries: ['Artificial intelligence', 'Ai', 'Media']
+2025-04-11 22:31:10,686 - app.services.research_service - INFO - Company data: {'founded_year': None, 'headquarters': 'San Francisco, California', 'industry': ['Artificial intelligence', 'Ai', 'Media'], 'funding': {}, 'founders': [], 'employees_count': None}
+2025-04-11 22:31:10,686 - app.services.research_service - INFO - Searching news for OpenAI...
+2025-04-11 22:31:10,686 - app.services.scraper_service - INFO - Searching for news about: OpenAI
+2025-04-11 22:31:10,686 - app.services.scraper_service - INFO - Generated 3 demo news items for OpenAI
+2025-04-11 22:31:10,686 - app.services.research_service - INFO - News data count: 3
+2025-04-11 22:31:10,687 - app.services.research_service - INFO - Not enough data from API-based scraping, trying Selenium fallback for OpenAI
+2025-04-11 22:31:11,188 - app.services.selenium_service - INFO - Would use Selenium to get data for: OpenAI
+2025-04-11 22:31:11,188 - app.services.research_service - INFO - Got data from Selenium: {'website': 'https://openai.com', 'description': 'OpenAI is an innovative company in the technology sector.', 'founded_year': '2011', 'headquarters': 'San Francisco, California', 'industry': ['Technology', 'Software'], 'funding': {'Total': '$520M'}, 'founders': ['Founder 1', 'Founder 2'], 'employees_count': 1051, 'products': ['OpenAI Product 1', 'OpenAI Product 2', 'OpenAI Product 3'], 'social_media': {'twitter': 'https://twitter.com/openai'}}
+2025-04-11 22:31:11,188 - app.services.research_service - INFO - Combined data for OpenAI: {'website': 'https://en.wikipedia.org/wiki/OpenAI', 'description': 'OpenAI is an innovative company in the technology sector.', 'founded_year': '2011', 'headquarters': 'San Francisco, California', 'industry': ['Artificial intelligence', 'Ai', 'Media'], 'funding': {'Total': '$520M'}, 'founders': ['Founder 1', 'Founder 2'], 'employees_count': 1051, 'products': ['OpenAI Product 1', 'OpenAI Product 2', 'OpenAI Product 3'], 'social_media': {'twitter': 'https://web.archive.org/web/20240601161425/https://www.vox.com/future-perfect/351132/openai-vested-equity-nda-sam-altman-documents-employees'}, 'news': [{'title': 'OpenAI Announces New Investment Round', 'url': 'https://techcrunch.com/2023/05/openai-funding', 'source': 'TechCrunch', 'date': '2023-05-01'}, {'title': 'OpenAI Releases Major Product Update', 'url': 'https://venturebeat.com/2023/04/openai-update', 'source': 'VentureBeat', 'date': '2023-04-15'}, {'title': 'OpenAI Partners with Industry Leader', 'url': 'https://www.wired.com/story/openai-partnership', 'source': 'Wired', 'date': '2023-04-10'}]}
+2025-04-11 22:31:11,193 - app.services.research_service - INFO - Completed research for: OpenAI
+2025-04-11 22:31:11,193 - app.services.research_service - INFO - Completed batch research
+2025-04-11 22:31:18,510 - app.services.selenium_service - ERROR - Error initializing Selenium WebDriver: No module named 'selenium'
+2025-04-11 22:31:18,510 - app.services.research_service - INFO - Starting batch research for 3 startups
+2025-04-11 22:31:18,510 - app.services.research_service - INFO - Starting research for: Anthropic
+2025-04-11 22:31:18,510 - app.services.research_service - INFO - Searching for Anthropic website...
+2025-04-11 22:31:18,510 - app.services.scraper_service - INFO - Calling API to find website for: Anthropic
+2025-04-11 22:31:18,511 - app.services.research_service - INFO - Starting research for: Databricks
+2025-04-11 22:31:18,511 - app.services.research_service - INFO - Searching for Databricks website...
+2025-04-11 22:31:18,511 - app.services.scraper_service - INFO - Calling API to find website for: Databricks
+2025-04-11 22:31:18,511 - app.services.research_service - INFO - Starting research for: SpaceX
+2025-04-11 22:31:18,511 - app.services.research_service - INFO - Searching for SpaceX website...
+2025-04-11 22:31:18,511 - app.services.scraper_service - INFO - Calling API to find website for: SpaceX
+2025-04-11 22:31:18,772 - app.services.scraper_service - INFO - Trying Wikipedia fallback: https://en.wikipedia.org/wiki/Databricks
+2025-04-11 22:31:18,772 - app.services.research_service - INFO - Found website URL: https://en.wikipedia.org/wiki/Databricks
+2025-04-11 22:31:18,772 - app.services.research_service - INFO - Scraping website data from https://en.wikipedia.org/wiki/Databricks...
+2025-04-11 22:31:18,773 - app.services.scraper_service - INFO - Scraping website: https://en.wikipedia.org/wiki/Databricks
+2025-04-11 22:31:18,778 - app.services.scraper_service - INFO - Trying Wikipedia fallback: https://en.wikipedia.org/wiki/SpaceX
+2025-04-11 22:31:18,778 - app.services.research_service - INFO - Found website URL: https://en.wikipedia.org/wiki/SpaceX
+2025-04-11 22:31:18,778 - app.services.research_service - INFO - Scraping website data from https://en.wikipedia.org/wiki/SpaceX...
+2025-04-11 22:31:18,778 - app.services.scraper_service - INFO - Scraping website: https://en.wikipedia.org/wiki/SpaceX
+2025-04-11 22:31:18,870 - app.services.research_service - INFO - Website data: {'website': 'https://en.wikipedia.org/wiki/Databricks', 'description': None, 'products': [], 'social_media': {}}
+2025-04-11 22:31:18,870 - app.services.research_service - INFO - Searching for Databricks info...
+2025-04-11 22:31:18,870 - app.services.scraper_service - INFO - Searching Wikipedia for: Databricks
+2025-04-11 22:31:18,998 - app.services.scraper_service - INFO - Found social media: twitter - https://www.spacex.com/
+2025-04-11 22:31:19,000 - app.services.scraper_service - INFO - Found social media: twitter - https://web.archive.org/web/20130623215759/http://www.spacex.com/press.php?page=20100616
+2025-04-11 22:31:19,000 - app.services.scraper_service - INFO - Found social media: twitter - http://www.spacex.com/press.php?page=20100616
+2025-04-11 22:31:19,000 - app.services.scraper_service - INFO - Found social media: twitter - https://web.archive.org/web/20170308172650/http://www.spacex.com/news/2015/12/21/background-tonights-launch
+2025-04-11 22:31:19,000 - app.services.scraper_service - INFO - Found social media: twitter - http://www.spacex.com/news/2015/12/21/background-tonights-launch
+2025-04-11 22:31:19,000 - app.services.scraper_service - INFO - Found social media: twitter - https://web.archive.org/web/20170216160231/http://www.spacex.com/news/2016/09/01/anomaly-updates
+2025-04-11 22:31:19,000 - app.services.scraper_service - INFO - Found social media: twitter - http://www.spacex.com/news/2016/09/01/anomaly-updates
+2025-04-11 22:31:19,000 - app.services.scraper_service - INFO - Found social media: twitter - https://web.archive.org/web/20170222061801/http://www.spacex.com/about
+2025-04-11 22:31:19,000 - app.services.scraper_service - INFO - Found social media: twitter - http://www.spacex.com/about
+2025-04-11 22:31:19,000 - app.services.scraper_service - INFO - Found social media: twitter - https://web.archive.org/web/20170222061801/http://www.spacex.com/about
+2025-04-11 22:31:19,000 - app.services.scraper_service - INFO - Found social media: twitter - http://www.spacex.com/about
+2025-04-11 22:31:19,001 - app.services.scraper_service - INFO - Found social media: twitter - https://x.com/SpaceX/status/1608888254761422851
+2025-04-11 22:31:19,001 - app.services.scraper_service - INFO - Found social media: twitter - https://x.com/elonmusk/status/1813290895334383820
+2025-04-11 22:31:19,001 - app.services.scraper_service - INFO - Found social media: twitter - https://www.spacex.com/vehicles/starship/
+2025-04-11 22:31:19,001 - app.services.scraper_service - INFO - Found social media: twitter - https://web.archive.org/web/20200522145915/https://www.spacex.com/vehicles/starship/
+2025-04-11 22:31:19,001 - app.services.scraper_service - INFO - Found social media: twitter - http://www.spacex.com/webcast
+2025-04-11 22:31:19,001 - app.services.scraper_service - INFO - Found social media: twitter - https://web.archive.org/web/20131126023622/http://www.spacex.com/webcast/
+2025-04-11 22:31:19,001 - app.services.scraper_service - INFO - Found social media: twitter - https://web.archive.org/web/20070210095458/http://spacex.com/falcon9.php
+2025-04-11 22:31:19,001 - app.services.scraper_service - INFO - Found social media: twitter - http://www.spacex.com/falcon9.php
+2025-04-11 22:31:19,001 - app.services.scraper_service - INFO - Found social media: twitter - https://web.archive.org/web/20111005015956/http://www.spacex.com/falcon_heavy.php
+2025-04-11 22:31:19,001 - app.services.scraper_service - INFO - Found social media: twitter - http://www.spacex.com/falcon_heavy.php
+2025-04-11 22:31:19,001 - app.services.scraper_service - INFO - Found social media: twitter - https://web.archive.org/web/20170406182002/http://www.spacex.com/falcon-heavy
+2025-04-11 22:31:19,001 - app.services.scraper_service - INFO - Found social media: twitter - http://www.spacex.com/falcon-heavy
+2025-04-11 22:31:19,001 - app.services.scraper_service - INFO - Found social media: twitter - https://web.archive.org/web/20081001161901/http://www.spacex.com/SpaceX_F1-003_PressKit.pdf
+2025-04-11 22:31:19,001 - app.services.scraper_service - INFO - Found social media: twitter - http://www.spacex.com/SpaceX_F1-003_PressKit.pdf
+2025-04-11 22:31:19,001 - app.services.scraper_service - INFO - Found social media: twitter - https://web.archive.org/web/20120503070101/http://www.spacex.com/Falcon9UsersGuide_2009.pdf
+2025-04-11 22:31:19,001 - app.services.scraper_service - INFO - Found social media: twitter - http://www.spacex.com/Falcon9UsersGuide_2009.pdf
+2025-04-11 22:31:19,001 - app.services.scraper_service - INFO - Found social media: twitter - https://web.archive.org/web/20190220122638/https://www.spacex.com/sites/spacex/files/falcon_users_guide_02182019.pdf
+2025-04-11 22:31:19,001 - app.services.scraper_service - INFO - Found social media: twitter - https://www.spacex.com/sites/spacex/files/falcon_users_guide_02182019.pdf
+2025-04-11 22:31:19,001 - app.services.scraper_service - INFO - Found social media: twitter - https://web.archive.org/web/20131216104115/http://www.astronautix.com/engines/kestrel.htm
+2025-04-11 22:31:19,001 - app.services.scraper_service - INFO - Found social media: twitter - http://www.astronautix.com/engines/kestrel.htm
+2025-04-11 22:31:19,001 - app.services.scraper_service - INFO - Found social media: twitter - https://www.spacex.com/updates
+2025-04-11 22:31:19,001 - app.services.scraper_service - INFO - Found social media: twitter - https://x.com/SpaceX/status/1604872936976154624
+2025-04-11 22:31:19,001 - app.services.scraper_service - INFO - Found social media: twitter - https://www.spacex.com/updates/starlink-update-04-28-2020/index.html
+2025-04-11 22:31:19,002 - app.services.scraper_service - INFO - Found social media: twitter - https://web.archive.org/web/20210516183544/https://www.spacex.com/updates/starlink-update-04-28-2020/index.html
+2025-04-11 22:31:19,002 - app.services.scraper_service - INFO - Found social media: twitter - https://www.spacex.com/starshield/
+2025-04-11 22:31:19,002 - app.services.scraper_service - INFO - Found social media: twitter - https://web.archive.org/web/20221214061704/https://www.spacex.com/starshield/
+2025-04-11 22:31:19,002 - app.services.scraper_service - INFO - Found social media: twitter - https://web.archive.org/web/20150714105843/http://www.spacex.com/sites/spacex/files/spacex_hyperloop_pod_competition.pdf
+2025-04-11 22:31:19,002 - app.services.scraper_service - INFO - Found social media: twitter - http://www.spacex.com/sites/spacex/files/spacex_hyperloop_pod_competition.pdf
+2025-04-11 22:31:19,002 - app.services.scraper_service - INFO - Found social media: twitter - https://x.com/elonmusk/status/1016684366083190785
+2025-04-11 22:31:19,002 - app.services.scraper_service - INFO - Found social media: twitter - https://web.archive.org/web/20180718112856/https://twitter.com/elonmusk/status/1016684366083190785
+2025-04-11 22:31:19,002 - app.services.scraper_service - INFO - Found social media: twitter - https://x.com/elonmusk/status/1413909599711907845
+2025-04-11 22:31:19,002 - app.services.scraper_service - INFO - Found social media: twitter - https://www.spacex.com/media/falcon-users-guide-2021-09.pdf
+2025-04-11 22:31:19,002 - app.services.scraper_service - INFO - Found social media: twitter - https://web.archive.org/web/20231208111712/https://www.spacex.com/media/falcon-users-guide-2021-09.pdf
+2025-04-11 22:31:19,002 - app.services.scraper_service - INFO - Found social media: twitter - https://www.spacex.com/news/2015/05/06/crew-dragon-completes-pad-abort-test
+2025-04-11 22:31:19,002 - app.services.scraper_service - INFO - Found social media: twitter - https://web.archive.org/web/20180710153717/http://www.spacex.com/news/2015/05/06/crew-dragon-completes-pad-abort-test
+2025-04-11 22:31:19,002 - app.services.scraper_service - INFO - Found social media: twitter - https://www.spacex.com/news/2019/03/04/crew-dragon-docks-iss
+2025-04-11 22:31:19,002 - app.services.scraper_service - INFO - Found social media: twitter - https://web.archive.org/web/20200307191556/https://www.spacex.com/news/2019/03/04/crew-dragon-docks-iss
+2025-04-11 22:31:19,002 - app.services.scraper_service - INFO - Found social media: twitter - https://web.archive.org/web/20080830032252/http://www.spacex.com/press.php?page=15
+2025-04-11 22:31:19,002 - app.services.scraper_service - INFO - Found social media: twitter - http://www.spacex.com/press.php?page=15
+2025-04-11 22:31:19,002 - app.services.scraper_service - INFO - Found social media: twitter - https://web.archive.org/web/20070825113021/http://www.spacex.com/updates.php
+2025-04-11 22:31:19,002 - app.services.scraper_service - INFO - Found social media: twitter - https://twitter.com/jeff_foust/status/931087032830582784
+2025-04-11 22:31:19,002 - app.services.scraper_service - INFO - Found social media: twitter - https://web.archive.org/web/20190718034124/http://www.spacex.com/about
+2025-04-11 22:31:19,003 - app.services.scraper_service - INFO - Found social media: twitter - https://www.spacex.com/
+2025-04-11 22:31:19,003 - app.services.scraper_service - INFO - Found social media: twitter - https://x.com/SpaceX
+2025-04-11 22:31:19,003 - app.services.scraper_service - INFO - Found social media: twitter - https://iss-sim.spacex.com/
+2025-04-11 22:31:19,027 - app.services.research_service - INFO - Website data: {'website': 'https://en.wikipedia.org/wiki/SpaceX', 'description': None, 'products': [], 'social_media': {'twitter': 'https://iss-sim.spacex.com/'}}
+2025-04-11 22:31:19,027 - app.services.research_service - INFO - Searching for SpaceX info...
+2025-04-11 22:31:19,027 - app.services.scraper_service - INFO - Searching Wikipedia for: SpaceX
+2025-04-11 22:31:19,076 - app.services.scraper_service - INFO - Trying Wikipedia fallback: https://en.wikipedia.org/wiki/Anthropic
+2025-04-11 22:31:19,076 - app.services.research_service - INFO - Found website URL: https://en.wikipedia.org/wiki/Anthropic
+2025-04-11 22:31:19,076 - app.services.research_service - INFO - Scraping website data from https://en.wikipedia.org/wiki/Anthropic...
+2025-04-11 22:31:19,076 - app.services.scraper_service - INFO - Scraping website: https://en.wikipedia.org/wiki/Anthropic
+2025-04-11 22:31:19,161 - app.services.scraper_service - INFO - Found social media: twitter - https://www.vox.com/future-perfect/23794855/anthropic-ai-openai-claude-2
+2025-04-11 22:31:19,162 - app.services.scraper_service - INFO - Found social media: twitter - https://web.archive.org/web/20231003205441/https://www.vox.com/future-perfect/23794855/anthropic-ai-openai-claude-2
+2025-04-11 22:31:19,168 - app.services.research_service - INFO - Website data: {'website': 'https://en.wikipedia.org/wiki/Anthropic', 'description': None, 'products': [], 'social_media': {'twitter': 'https://web.archive.org/web/20231003205441/https://www.vox.com/future-perfect/23794855/anthropic-ai-openai-claude-2'}}
+2025-04-11 22:31:19,168 - app.services.research_service - INFO - Searching for Anthropic info...
+2025-04-11 22:31:19,168 - app.services.scraper_service - INFO - Searching Wikipedia for: Anthropic
+2025-04-11 22:31:19,463 - app.services.scraper_service - INFO - Found Wikipedia page for Databricks
+2025-04-11 22:31:19,464 - app.services.scraper_service - INFO - Found founded year: 2013
+2025-04-11 22:31:19,464 - app.services.scraper_service - INFO - Found industries: ['Artificial intelligence', 'Ai', 'Machine learning']
+2025-04-11 22:31:19,715 - app.services.scraper_service - INFO - Found Wikipedia page for SpaceX
+2025-04-11 22:31:19,716 - app.services.scraper_service - INFO - Found industries: ['Technology']
+2025-04-11 22:31:19,716 - app.services.scraper_service - INFO - Found founders: ['Elon Musk in 2002 with a vision of decreasing the costs of space launches', 'paving the way to a sustainable colony on Mars']
+2025-04-11 22:31:19,768 - app.services.scraper_service - INFO - Found Wikipedia page for Anthropic
+2025-04-11 22:31:19,768 - app.services.scraper_service - INFO - Found founded year: 2021
+2025-04-11 22:31:19,769 - app.services.scraper_service - INFO - Found industries: ['Artificial intelligence', 'Ai']
+2025-04-11 22:31:19,769 - app.services.scraper_service - INFO - Found founders: ['former members of OpenAI', 'including siblings Daniela Amodei', 'Dario Amodei']
+2025-04-11 22:31:19,925 - app.services.research_service - INFO - Company data: {'founded_year': '2013', 'headquarters': None, 'industry': ['Artificial intelligence', 'Ai', 'Machine learning'], 'funding': {}, 'founders': [], 'employees_count': None}
+2025-04-11 22:31:19,925 - app.services.research_service - INFO - Searching news for Databricks...
+2025-04-11 22:31:19,925 - app.services.scraper_service - INFO - Searching for news about: Databricks
+2025-04-11 22:31:19,925 - app.services.scraper_service - INFO - Generated 3 demo news items for Databricks
+2025-04-11 22:31:19,925 - app.services.research_service - INFO - News data count: 3
+2025-04-11 22:31:19,926 - app.services.research_service - INFO - Not enough data from API-based scraping, trying Selenium fallback for Databricks
+2025-04-11 22:31:20,257 - app.services.scraper_service - ERROR - Error getting company info: 'NoneType' object has no attribute 'connect'
+2025-04-11 22:31:20,257 - app.services.research_service - INFO - Company data: {'founded_year': '2021', 'headquarters': None, 'industry': ['Artificial intelligence', 'Ai'], 'funding': {}, 'founders': ['former members of OpenAI', 'including siblings Daniela Amodei', 'Dario Amodei'], 'employees_count': None}
+2025-04-11 22:31:20,257 - app.services.research_service - INFO - Searching news for Anthropic...
+2025-04-11 22:31:20,257 - app.services.scraper_service - INFO - Searching for news about: Anthropic
+2025-04-11 22:31:20,257 - app.services.scraper_service - INFO - Generated 3 demo news items for Anthropic
+2025-04-11 22:31:20,257 - app.services.research_service - INFO - News data count: 3
+2025-04-11 22:31:20,257 - app.services.research_service - INFO - Not enough data from API-based scraping, trying Selenium fallback for Anthropic
+2025-04-11 22:31:20,393 - app.services.scraper_service - ERROR - Error getting company info: 'NoneType' object has no attribute 'connect'
+2025-04-11 22:31:20,393 - app.services.research_service - INFO - Company data: {'founded_year': None, 'headquarters': None, 'industry': ['Technology'], 'funding': {}, 'founders': ['Elon Musk in 2002 with a vision of decreasing the costs of space launches', 'paving the way to a sustainable colony on Mars'], 'employees_count': None}
+2025-04-11 22:31:20,393 - app.services.research_service - INFO - Searching news for SpaceX...
+2025-04-11 22:31:20,393 - app.services.scraper_service - INFO - Searching for news about: SpaceX
+2025-04-11 22:31:20,393 - app.services.scraper_service - INFO - Generated 3 demo news items for SpaceX
+2025-04-11 22:31:20,393 - app.services.research_service - INFO - News data count: 3
+2025-04-11 22:31:20,393 - app.services.research_service - INFO - Not enough data from API-based scraping, trying Selenium fallback for SpaceX
+2025-04-11 22:31:20,427 - app.services.selenium_service - INFO - Would use Selenium to get data for: Databricks
+2025-04-11 22:31:20,427 - app.services.research_service - INFO - Got data from Selenium: {'website': 'https://databricks.com', 'description': 'Databricks is an innovative company in the technology sector.', 'founded_year': '2019', 'headquarters': 'San Francisco, California', 'industry': ['Technology', 'Software'], 'funding': {'Total': '$200M'}, 'founders': ['Founder 1', 'Founder 2'], 'employees_count': 819, 'products': ['Databricks Product 1', 'Databricks Product 2', 'Databricks Product 3'], 'social_media': {'twitter': 'https://twitter.com/databricks'}}
+2025-04-11 22:31:20,428 - app.services.research_service - INFO - Combined data for Databricks: {'website': 'https://en.wikipedia.org/wiki/Databricks', 'description': 'Databricks is an innovative company in the technology sector.', 'founded_year': '2013', 'headquarters': 'San Francisco, California', 'industry': ['Artificial intelligence', 'Ai', 'Machine learning'], 'funding': {'Total': '$200M'}, 'founders': ['Founder 1', 'Founder 2'], 'employees_count': 819, 'products': ['Databricks Product 1', 'Databricks Product 2', 'Databricks Product 3'], 'social_media': {'twitter': 'https://twitter.com/databricks'}, 'news': [{'title': 'Databricks Announces New Investment Round', 'url': 'https://techcrunch.com/2023/05/databricks-funding', 'source': 'TechCrunch', 'date': '2023-05-01'}, {'title': 'Databricks Releases Major Product Update', 'url': 'https://venturebeat.com/2023/04/databricks-update', 'source': 'VentureBeat', 'date': '2023-04-15'}, {'title': 'Databricks Partners with Industry Leader', 'url': 'https://www.wired.com/story/databricks-partnership', 'source': 'Wired', 'date': '2023-04-10'}]}
+2025-04-11 22:31:20,431 - app.services.research_service - INFO - Completed research for: Databricks
+2025-04-11 22:31:20,758 - app.services.selenium_service - INFO - Would use Selenium to get data for: Anthropic
+2025-04-11 22:31:20,759 - app.services.research_service - INFO - Got data from Selenium: {'website': 'https://anthropic.com', 'description': 'Anthropic is an innovative company in the technology sector.', 'founded_year': '2014', 'headquarters': 'San Francisco, California', 'industry': ['Technology', 'Software'], 'funding': {'Total': '$750M'}, 'founders': ['Founder 1', 'Founder 2'], 'employees_count': 374, 'products': ['Anthropic Product 1', 'Anthropic Product 2', 'Anthropic Product 3'], 'social_media': {'twitter': 'https://twitter.com/anthropic'}}
+2025-04-11 22:31:20,759 - app.services.research_service - INFO - Combined data for Anthropic: {'website': 'https://en.wikipedia.org/wiki/Anthropic', 'description': 'Anthropic is an innovative company in the technology sector.', 'founded_year': '2021', 'headquarters': 'San Francisco, California', 'industry': ['Artificial intelligence', 'Ai'], 'funding': {'Total': '$750M'}, 'founders': ['former members of OpenAI', 'including siblings Daniela Amodei', 'Dario Amodei'], 'employees_count': 374, 'products': ['Anthropic Product 1', 'Anthropic Product 2', 'Anthropic Product 3'], 'social_media': {'twitter': 'https://web.archive.org/web/20231003205441/https://www.vox.com/future-perfect/23794855/anthropic-ai-openai-claude-2'}, 'news': [{'title': 'Anthropic Announces New Investment Round', 'url': 'https://techcrunch.com/2023/05/anthropic-funding', 'source': 'TechCrunch', 'date': '2023-05-01'}, {'title': 'Anthropic Releases Major Product Update', 'url': 'https://venturebeat.com/2023/04/anthropic-update', 'source': 'VentureBeat', 'date': '2023-04-15'}, {'title': 'Anthropic Partners with Industry Leader', 'url': 'https://www.wired.com/story/anthropic-partnership', 'source': 'Wired', 'date': '2023-04-10'}]}
+2025-04-11 22:31:20,761 - app.services.research_service - INFO - Completed research for: Anthropic
+2025-04-11 22:31:20,894 - app.services.selenium_service - INFO - Would use Selenium to get data for: SpaceX
+2025-04-11 22:31:20,894 - app.services.research_service - INFO - Got data from Selenium: {'website': 'https://spacex.com', 'description': 'SpaceX is an innovative company in the technology sector.', 'founded_year': '2016', 'headquarters': 'San Francisco, California', 'industry': ['Technology', 'Software'], 'funding': {'Total': '$870M'}, 'founders': ['Founder 1', 'Founder 2'], 'employees_count': 286, 'products': ['SpaceX Product 1', 'SpaceX Product 2', 'SpaceX Product 3'], 'social_media': {'twitter': 'https://twitter.com/spacex'}}
+2025-04-11 22:31:20,895 - app.services.research_service - INFO - Combined data for SpaceX: {'website': 'https://en.wikipedia.org/wiki/SpaceX', 'description': 'SpaceX is an innovative company in the technology sector.', 'founded_year': '2016', 'headquarters': 'San Francisco, California', 'industry': ['Technology'], 'funding': {'Total': '$870M'}, 'founders': ['Elon Musk in 2002 with a vision of decreasing the costs of space launches', 'paving the way to a sustainable colony on Mars'], 'employees_count': 286, 'products': ['SpaceX Product 1', 'SpaceX Product 2', 'SpaceX Product 3'], 'social_media': {'twitter': 'https://iss-sim.spacex.com/'}, 'news': [{'title': 'SpaceX Announces New Investment Round', 'url': 'https://techcrunch.com/2023/05/spacex-funding', 'source': 'TechCrunch', 'date': '2023-05-01'}, {'title': 'SpaceX Releases Major Product Update', 'url': 'https://venturebeat.com/2023/04/spacex-update', 'source': 'VentureBeat', 'date': '2023-04-15'}, {'title': 'SpaceX Partners with Industry Leader', 'url': 'https://www.wired.com/story/spacex-partnership', 'source': 'Wired', 'date': '2023-04-10'}]}
+2025-04-11 22:31:20,897 - app.services.research_service - INFO - Completed research for: SpaceX
+2025-04-11 22:31:20,897 - app.services.research_service - INFO - Completed batch research
+2025-04-11 22:33:17,032 - asyncio - DEBUG - Using selector: KqueueSelector
+2025-04-11 22:33:20,024 - asyncio - DEBUG - Using selector: KqueueSelector
+2025-04-11 22:34:03,796 - asyncio - DEBUG - Using selector: KqueueSelector
+2025-04-11 22:34:12,751 - app.services.research_service - INFO - Starting batch research for 1 startups
+2025-04-11 22:34:12,751 - app.services.research_service - INFO - Starting research for: Tesla
+2025-04-11 22:34:12,751 - app.services.research_service - INFO - Searching for Tesla website...
+2025-04-11 22:34:12,752 - app.services.scraper_service - INFO - Calling API to find website for: Tesla
+2025-04-11 22:34:13,112 - app.services.scraper_service - INFO - Trying Wikipedia fallback: https://en.wikipedia.org/wiki/Tesla
+2025-04-11 22:34:13,113 - app.services.research_service - INFO - Found website URL: https://en.wikipedia.org/wiki/Tesla
+2025-04-11 22:34:13,113 - app.services.research_service - INFO - Scraping website data from https://en.wikipedia.org/wiki/Tesla...
+2025-04-11 22:34:13,113 - app.services.scraper_service - INFO - Scraping website: https://en.wikipedia.org/wiki/Tesla
+2025-04-11 22:34:13,173 - app.services.research_service - INFO - Website data: {'website': 'https://en.wikipedia.org/wiki/Tesla', 'description': None, 'products': [], 'social_media': {}}
+2025-04-11 22:34:13,173 - app.services.research_service - INFO - Searching for Tesla info...
+2025-04-11 22:34:13,173 - app.services.scraper_service - INFO - Searching Wikipedia for: Tesla
+2025-04-11 22:34:13,825 - app.services.scraper_service - INFO - Found Wikipedia page for Tesla
+2025-04-11 22:34:13,827 - app.services.scraper_service - INFO - Found industries: ['Finance']
+2025-04-11 22:34:14,698 - app.services.research_service - INFO - Company data: {'founded_year': None, 'headquarters': None, 'industry': ['Finance'], 'funding': {}, 'founders': [], 'employees_count': None}
+2025-04-11 22:34:14,699 - app.services.research_service - INFO - Searching news for Tesla...
+2025-04-11 22:34:14,699 - app.services.scraper_service - INFO - Searching for news about: Tesla
+2025-04-11 22:34:14,699 - app.services.scraper_service - INFO - Generated 3 demo news items for Tesla
+2025-04-11 22:34:14,699 - app.services.research_service - INFO - News data count: 3
+2025-04-11 22:34:14,699 - app.services.research_service - INFO - Combined data for Tesla: {'website': 'https://en.wikipedia.org/wiki/Tesla', 'description': 'Tesla is a company in the technology sector.', 'founded_year': 'N/A', 'headquarters': 'N/A', 'industry': ['Finance'], 'funding': {'Estimated': 'Unknown'}, 'founders': [], 'employees_count': None, 'products': [], 'social_media': {}, 'news': [{'title': 'Tesla Announces New Investment Round', 'url': 'https://techcrunch.com/2023/05/tesla-funding', 'source': 'TechCrunch', 'date': '2023-05-01'}, {'title': 'Tesla Releases Major Product Update', 'url': 'https://venturebeat.com/2023/04/tesla-update', 'source': 'VentureBeat', 'date': '2023-04-15'}, {'title': 'Tesla Partners with Industry Leader', 'url': 'https://www.wired.com/story/tesla-partnership', 'source': 'Wired', 'date': '2023-04-10'}]}
+2025-04-11 22:34:14,705 - app.services.research_service - INFO - Completed research for: Tesla
+2025-04-11 22:34:14,706 - app.services.research_service - INFO - Completed batch research
+2025-04-11 22:34:54,874 - app.services.research_service - INFO - Starting batch research for 1 startups
+2025-04-11 22:34:54,874 - app.services.research_service - INFO - Starting research for: Microsoft
+2025-04-11 22:34:54,874 - app.services.research_service - INFO - Searching for Microsoft website...
+2025-04-11 22:34:54,875 - app.services.scraper_service - INFO - Calling API to find website for: Microsoft
+2025-04-11 22:34:55,195 - app.services.scraper_service - INFO - Trying Wikipedia fallback: https://en.wikipedia.org/wiki/Microsoft
+2025-04-11 22:34:55,196 - app.services.research_service - INFO - Found website URL: https://en.wikipedia.org/wiki/Microsoft
+2025-04-11 22:34:55,196 - app.services.research_service - INFO - Scraping website data from https://en.wikipedia.org/wiki/Microsoft...
+2025-04-11 22:34:55,196 - app.services.scraper_service - INFO - Scraping website: https://en.wikipedia.org/wiki/Microsoft
+2025-04-11 22:34:55,408 - app.services.scraper_service - INFO - Found social media: twitter - https://news.xbox.com/en-us/2020/06/22/bringing-more-players-into-our-gaming-vision
+2025-04-11 22:34:55,409 - app.services.scraper_service - INFO - Found social media: twitter - https://www.xbox.com/en-US/consoles/xbox-series-x
+2025-04-11 22:34:55,409 - app.services.scraper_service - INFO - Found social media: twitter - https://web.archive.org/web/20231120082141/https://twitter.com/satyanadella/status/1726509045803336122
+2025-04-11 22:34:55,409 - app.services.scraper_service - INFO - Found social media: twitter - https://twitter.com/satyanadella/status/1726509045803336122
+2025-04-11 22:34:55,434 - app.services.research_service - INFO - Website data: {'website': 'https://en.wikipedia.org/wiki/Microsoft', 'description': None, 'products': [], 'social_media': {'twitter': 'https://twitter.com/satyanadella/status/1726509045803336122'}}
+2025-04-11 22:34:55,434 - app.services.research_service - INFO - Searching for Microsoft info...
+2025-04-11 22:34:55,434 - app.services.scraper_service - INFO - Searching Wikipedia for: Microsoft
+2025-04-11 22:34:56,222 - app.services.scraper_service - INFO - Found Wikipedia page for Microsoft
+2025-04-11 22:34:56,223 - app.services.scraper_service - INFO - Found founded year: 1975
+2025-04-11 22:34:56,223 - app.services.scraper_service - INFO - Found headquarters: Redmond, Washington
+2025-04-11 22:34:56,225 - app.services.scraper_service - INFO - Found industries: ['Technology', 'Software']
+2025-04-11 22:34:56,225 - app.services.scraper_service - INFO - Found founders: ['Bill Gates', 'Paul Allen to develop', 'sell BASIC interpreters for the Altair 8800']
+2025-04-11 22:34:57,287 - app.services.research_service - INFO - Company data: {'founded_year': '1975', 'headquarters': 'Redmond, Washington', 'industry': ['Technology', 'Software'], 'funding': {}, 'founders': ['Bill Gates', 'Paul Allen to develop', 'sell BASIC interpreters for the Altair 8800'], 'employees_count': None}
+2025-04-11 22:34:57,298 - app.services.research_service - INFO - Searching news for Microsoft...
+2025-04-11 22:34:57,300 - app.services.scraper_service - INFO - Searching for news about: Microsoft
+2025-04-11 22:34:57,300 - app.services.scraper_service - INFO - Generated 3 demo news items for Microsoft
+2025-04-11 22:34:57,300 - app.services.research_service - INFO - News data count: 3
+2025-04-11 22:34:57,320 - app.services.research_service - INFO - Combined data for Microsoft: {'website': 'https://en.wikipedia.org/wiki/Microsoft', 'description': 'Microsoft is a company in the technology sector.', 'founded_year': '1975', 'headquarters': 'Redmond, Washington', 'industry': ['Technology', 'Software'], 'funding': {'Estimated': 'Unknown'}, 'founders': ['Bill Gates', 'Paul Allen to develop', 'sell BASIC interpreters for the Altair 8800'], 'employees_count': None, 'products': [], 'social_media': {'twitter': 'https://twitter.com/satyanadella/status/1726509045803336122'}, 'news': [{'title': 'Microsoft Announces New Investment Round', 'url': 'https://techcrunch.com/2023/05/microsoft-funding', 'source': 'TechCrunch', 'date': '2023-05-01'}, {'title': 'Microsoft Releases Major Product Update', 'url': 'https://venturebeat.com/2023/04/microsoft-update', 'source': 'VentureBeat', 'date': '2023-04-15'}, {'title': 'Microsoft Partners with Industry Leader', 'url': 'https://www.wired.com/story/microsoft-partnership', 'source': 'Wired', 'date': '2023-04-10'}]}
+2025-04-11 22:34:57,376 - app.services.research_service - INFO - Completed research for: Microsoft
+2025-04-11 22:34:57,392 - app.services.research_service - INFO - Completed batch research
+2025-04-11 22:38:48,824 - asyncio - DEBUG - Using selector: KqueueSelector
+2025-04-11 22:41:40,888 - asyncio - DEBUG - Using selector: KqueueSelector
+2025-04-11 22:41:46,301 - asyncio - DEBUG - Using selector: KqueueSelector
+2025-04-11 22:54:39,097 - asyncio - DEBUG - Using selector: KqueueSelector
+2025-04-11 22:56:41,394 - asyncio - DEBUG - Using selector: KqueueSelector
+2025-04-11 22:57:41,735 - asyncio - DEBUG - Using selector: KqueueSelector
+2025-04-11 23:04:11,508 - asyncio - DEBUG - Using selector: KqueueSelector
+2025-04-11 23:04:18,708 - app.services.research_service - INFO - Starting batch research for 1 startups
+2025-04-11 23:04:18,708 - app.services.research_service - INFO - Starting research for: Apple
+2025-04-11 23:04:18,709 - app.services.research_service - INFO - Searching for Apple website...
+2025-04-11 23:04:18,709 - app.services.scraper_service - INFO - Calling API to find website for: Apple
+2025-04-11 23:04:19,036 - app.services.scraper_service - INFO - Trying Wikipedia fallback: https://en.wikipedia.org/wiki/Apple
+2025-04-11 23:04:19,036 - app.services.research_service - INFO - Found website URL: https://en.wikipedia.org/wiki/Apple
+2025-04-11 23:04:19,037 - app.services.research_service - INFO - Scraping website data from https://en.wikipedia.org/wiki/Apple...
+2025-04-11 23:04:19,037 - app.services.scraper_service - INFO - Scraping website: https://en.wikipedia.org/wiki/Apple
+2025-04-11 23:04:19,218 - app.services.research_service - INFO - Website data: {'website': 'https://en.wikipedia.org/wiki/Apple', 'description': None, 'products': [], 'social_media': {}}
+2025-04-11 23:04:19,218 - app.services.research_service - INFO - Searching for Apple info...
+2025-04-11 23:04:19,218 - app.services.scraper_service - INFO - Searching Wikipedia for: Apple
+2025-04-11 23:04:19,956 - app.services.scraper_service - INFO - Found Wikipedia page for Apple
+2025-04-11 23:04:20,793 - app.services.research_service - INFO - Company data: {'founded_year': None, 'headquarters': None, 'industry': ['Technology'], 'funding': {}, 'founders': [], 'employees_count': None}
+2025-04-11 23:04:20,793 - app.services.research_service - INFO - Searching news for Apple...
+2025-04-11 23:04:20,793 - app.services.scraper_service - INFO - Searching for news about: Apple
+2025-04-11 23:04:20,794 - app.services.scraper_service - INFO - Generated 3 demo news items for Apple
+2025-04-11 23:04:20,794 - app.services.research_service - INFO - News data count: 3
+2025-04-11 23:04:20,794 - app.services.research_service - INFO - Combined data for Apple: {'website': 'https://en.wikipedia.org/wiki/Apple', 'description': 'Apple is a company in the technology sector.', 'founded_year': 'N/A', 'headquarters': 'N/A', 'industry': ['Technology'], 'funding': {'Estimated': 'Unknown'}, 'founders': [], 'employees_count': None, 'products': [], 'social_media': {}, 'news': [{'title': 'Apple Announces New Investment Round', 'url': 'https://techcrunch.com/2023/05/apple-funding', 'source': 'TechCrunch', 'date': '2023-05-01'}, {'title': 'Apple Releases Major Product Update', 'url': 'https://venturebeat.com/2023/04/apple-update', 'source': 'VentureBeat', 'date': '2023-04-15'}, {'title': 'Apple Partners with Industry Leader', 'url': 'https://www.wired.com/story/apple-partnership', 'source': 'Wired', 'date': '2023-04-10'}]}
+2025-04-11 23:04:20,801 - app.services.research_service - INFO - Completed research for: Apple
+2025-04-11 23:04:20,801 - app.services.research_service - INFO - Completed batch research
+2025-04-11 23:06:39,108 - app.services.research_service - INFO - Starting batch research for 1 startups
+2025-04-11 23:06:39,109 - app.services.research_service - INFO - Starting research for: Apple Inc.
+2025-04-11 23:06:39,110 - app.services.research_service - INFO - Searching for Apple Inc. website...
+2025-04-11 23:06:39,110 - app.services.scraper_service - INFO - Calling API to find website for: Apple Inc.
+2025-04-11 23:06:39,429 - app.services.scraper_service - INFO - Trying Wikipedia fallback: https://en.wikipedia.org/wiki/Apple_Inc.
+2025-04-11 23:06:39,429 - app.services.research_service - INFO - Found website URL: https://en.wikipedia.org/wiki/Apple_Inc.
+2025-04-11 23:06:39,429 - app.services.research_service - INFO - Scraping website data from https://en.wikipedia.org/wiki/Apple_Inc....
+2025-04-11 23:06:39,430 - app.services.scraper_service - INFO - Scraping website: https://en.wikipedia.org/wiki/Apple_Inc.
+2025-04-11 23:06:39,745 - app.services.scraper_service - INFO - Found social media: twitter - https://web.archive.org/web/20221014102514/https://appletoolbox.com/fire-resistant-yet-environment-friendly-power-cables-from-apple/
+2025-04-11 23:06:39,745 - app.services.scraper_service - INFO - Found social media: twitter - https://appletoolbox.com/fire-resistant-yet-environment-friendly-power-cables-from-apple
+2025-04-11 23:06:39,783 - app.services.research_service - INFO - Website data: {'website': 'https://en.wikipedia.org/wiki/Apple_Inc.', 'description': None, 'products': [], 'social_media': {'twitter': 'https://appletoolbox.com/fire-resistant-yet-environment-friendly-power-cables-from-apple'}}
+2025-04-11 23:06:39,783 - app.services.research_service - INFO - Searching for Apple Inc. info...
+2025-04-11 23:06:39,783 - app.services.scraper_service - INFO - Searching Wikipedia for: Apple Inc.
+2025-04-11 23:06:40,760 - app.services.scraper_service - INFO - Found Wikipedia page for Apple Inc.
+2025-04-11 23:06:40,761 - app.services.scraper_service - INFO - Found founded year: 1976
+2025-04-11 23:06:40,761 - app.services.scraper_service - INFO - Found headquarters: Cupertino, California, in Silicon Valley
+2025-04-11 23:06:40,762 - app.services.scraper_service - INFO - Found industries: ['Technology', 'Software', 'Retail']
+2025-04-11 23:06:41,817 - app.services.research_service - INFO - Company data: {'founded_year': '1976', 'headquarters': 'Cupertino, California, in Silicon Valley', 'industry': ['Technology', 'Software', 'Retail'], 'funding': {}, 'founders': [], 'employees_count': None}
+2025-04-11 23:06:41,817 - app.services.research_service - INFO - Searching news for Apple Inc....
+2025-04-11 23:06:41,818 - app.services.scraper_service - INFO - Searching for news about: Apple Inc.
+2025-04-11 23:06:41,818 - app.services.scraper_service - INFO - Generated 3 demo news items for Apple Inc.
+2025-04-11 23:06:41,818 - app.services.research_service - INFO - News data count: 3
+2025-04-11 23:06:41,819 - app.services.research_service - INFO - Combined data for Apple Inc.: {'website': 'https://en.wikipedia.org/wiki/Apple_Inc.', 'description': 'Apple Inc. is a company in the technology sector.', 'founded_year': '1976', 'headquarters': 'Cupertino, California, in Silicon Valley', 'industry': ['Technology', 'Software', 'Retail'], 'funding': {'Estimated': 'Unknown'}, 'founders': [], 'employees_count': None, 'products': [], 'social_media': {'twitter': 'https://appletoolbox.com/fire-resistant-yet-environment-friendly-power-cables-from-apple'}, 'news': [{'title': 'Apple Inc. Announces New Investment Round', 'url': 'https://techcrunch.com/2023/05/apple-inc.-funding', 'source': 'TechCrunch', 'date': '2023-05-01'}, {'title': 'Apple Inc. Releases Major Product Update', 'url': 'https://venturebeat.com/2023/04/apple-inc.-update', 'source': 'VentureBeat', 'date': '2023-04-15'}, {'title': 'Apple Inc. Partners with Industry Leader', 'url': 'https://www.wired.com/story/apple-inc.-partnership', 'source': 'Wired', 'date': '2023-04-10'}]}
+2025-04-11 23:06:41,827 - app.services.research_service - INFO - Completed research for: Apple Inc.
+2025-04-11 23:06:41,827 - app.services.research_service - INFO - Completed batch research
+2025-04-11 23:16:20,406 - asyncio - DEBUG - Using selector: KqueueSelector
+2025-04-11 23:17:17,160 - asyncio - DEBUG - Using selector: KqueueSelector
+2025-04-11 23:21:21,303 - asyncio - DEBUG - Using selector: KqueueSelector
+2025-04-11 23:21:26,607 - app.services.research_service - INFO - Starting batch research for 1 startups
+2025-04-11 23:21:26,607 - app.services.research_service - INFO - Starting research for: Apple
+2025-04-11 23:21:26,607 - app.services.research_service - INFO - Searching for Apple website...
+2025-04-11 23:21:26,607 - app.services.scraper_service - INFO - Calling API to find website for: Apple
+2025-04-11 23:21:27,149 - app.services.scraper_service - INFO - Trying Wikipedia fallback: https://en.wikipedia.org/wiki/Apple_Inc._technology_company
+2025-04-11 23:21:27,150 - app.services.research_service - INFO - Found website URL: https://en.wikipedia.org/wiki/Apple_Inc._technology_company
+2025-04-11 23:21:27,150 - app.services.research_service - INFO - Scraping website data from https://en.wikipedia.org/wiki/Apple_Inc._technology_company...
+2025-04-11 23:21:27,150 - app.services.scraper_service - INFO - Scraping website: https://en.wikipedia.org/wiki/Apple_Inc._technology_company
+2025-04-11 23:21:27,840 - app.services.research_service - INFO - Website data: {'website': 'https://en.wikipedia.org/wiki/Apple_Inc._technology_company', 'description': None, 'products': [], 'social_media': {}}
+2025-04-11 23:21:27,841 - app.services.research_service - INFO - Searching for Apple info...
+2025-04-11 23:21:27,841 - app.services.scraper_service - INFO - Searching Wikipedia for: Apple Inc. technology company
+2025-04-11 23:21:28,672 - app.services.scraper_service - INFO - Found Wikipedia page for Apple
+2025-04-11 23:21:28,672 - app.services.scraper_service - INFO - Found founded year: 1976
+2025-04-11 23:21:28,673 - app.services.scraper_service - INFO - Found headquarters: Cupertino, California, in Silicon Valley
+2025-04-11 23:21:28,674 - app.services.scraper_service - INFO - Found industries: ['Technology', 'Software', 'Retail']
+2025-04-11 23:21:29,743 - app.services.research_service - INFO - Company data: {'founded_year': '1976', 'headquarters': 'Cupertino, California, in Silicon Valley', 'industry': ['Technology', 'Software', 'Retail'], 'funding': {}, 'founders': [], 'employees_count': None}
+2025-04-11 23:21:29,743 - app.services.research_service - INFO - Searching news for Apple...
+2025-04-11 23:21:29,744 - app.services.scraper_service - INFO - Searching for news about: Apple
+2025-04-11 23:21:29,744 - app.services.scraper_service - INFO - Generated 3 demo news items for Apple
+2025-04-11 23:21:29,744 - app.services.research_service - INFO - News data count: 3
+2025-04-11 23:21:29,744 - app.services.research_service - INFO - Combined data for Apple: {'website': 'https://en.wikipedia.org/wiki/Apple_Inc._technology_company', 'description': 'Apple is a company in the technology sector.', 'founded_year': '1976', 'headquarters': 'Cupertino, California, in Silicon Valley', 'industry': ['Technology', 'Software', 'Retail'], 'funding': {'Estimated': 'Unknown'}, 'founders': [], 'employees_count': None, 'products': [], 'social_media': {}, 'news': [{'title': 'Apple Announces New Investment Round', 'url': 'https://techcrunch.com/2023/05/apple-funding', 'source': 'TechCrunch', 'date': '2023-05-01'}, {'title': 'Apple Releases Major Product Update', 'url': 'https://venturebeat.com/2023/04/apple-update', 'source': 'VentureBeat', 'date': '2023-04-15'}, {'title': 'Apple Partners with Industry Leader', 'url': 'https://www.wired.com/story/apple-partnership', 'source': 'Wired', 'date': '2023-04-10'}]}
+2025-04-11 23:21:29,749 - app.services.research_service - INFO - Completed research for: Apple
+2025-04-11 23:21:29,749 - app.services.research_service - INFO - Completed batch research
+2025-04-11 23:21:36,141 - app.services.research_service - INFO - Starting batch research for 1 startups
+2025-04-11 23:21:36,142 - app.services.research_service - INFO - Starting research for: Tesla
+2025-04-11 23:21:36,142 - app.services.research_service - INFO - Searching for Tesla website...
+2025-04-11 23:21:36,142 - app.services.scraper_service - INFO - Calling API to find website for: Tesla
+2025-04-11 23:21:36,456 - app.services.scraper_service - INFO - Trying Wikipedia fallback: https://en.wikipedia.org/wiki/Tesla_electric_vehicle_company_Elon_Musk
+2025-04-11 23:21:36,456 - app.services.research_service - INFO - Found website URL: https://en.wikipedia.org/wiki/Tesla_electric_vehicle_company_Elon_Musk
+2025-04-11 23:21:36,456 - app.services.research_service - INFO - Scraping website data from https://en.wikipedia.org/wiki/Tesla_electric_vehicle_company_Elon_Musk...
+2025-04-11 23:21:36,456 - app.services.scraper_service - INFO - Scraping website: https://en.wikipedia.org/wiki/Tesla_electric_vehicle_company_Elon_Musk
+2025-04-11 23:21:36,968 - app.services.research_service - INFO - Website data: {'website': 'https://en.wikipedia.org/wiki/Tesla_electric_vehicle_company_Elon_Musk', 'description': None, 'products': [], 'social_media': {}}
+2025-04-11 23:21:36,968 - app.services.research_service - INFO - Searching for Tesla info...
+2025-04-11 23:21:36,968 - app.services.scraper_service - INFO - Searching Wikipedia for: Tesla electric vehicle company Elon Musk
+2025-04-11 23:21:37,823 - app.services.scraper_service - INFO - Found Wikipedia page for Tesla
+2025-04-11 23:21:37,824 - app.services.scraper_service - INFO - Found industries: ['Media']
+2025-04-11 23:21:38,472 - app.services.research_service - INFO - Company data: {'founded_year': None, 'headquarters': None, 'industry': ['Media'], 'funding': {}, 'founders': [], 'employees_count': None}
+2025-04-11 23:21:38,472 - app.services.research_service - INFO - Searching news for Tesla...
+2025-04-11 23:21:38,472 - app.services.scraper_service - INFO - Searching for news about: Tesla
+2025-04-11 23:21:38,472 - app.services.scraper_service - INFO - Generated 3 demo news items for Tesla
+2025-04-11 23:21:38,473 - app.services.research_service - INFO - News data count: 3
+2025-04-11 23:21:38,473 - app.services.research_service - INFO - Combined data for Tesla: {'website': 'https://en.wikipedia.org/wiki/Tesla_electric_vehicle_company_Elon_Musk', 'description': 'Tesla is a company in the technology sector.', 'founded_year': 'N/A', 'headquarters': 'N/A', 'industry': ['Media'], 'funding': {'Estimated': 'Unknown'}, 'founders': [], 'employees_count': None, 'products': [], 'social_media': {}, 'news': [{'title': 'Tesla Announces New Investment Round', 'url': 'https://techcrunch.com/2023/05/tesla-funding', 'source': 'TechCrunch', 'date': '2023-05-01'}, {'title': 'Tesla Releases Major Product Update', 'url': 'https://venturebeat.com/2023/04/tesla-update', 'source': 'VentureBeat', 'date': '2023-04-15'}, {'title': 'Tesla Partners with Industry Leader', 'url': 'https://www.wired.com/story/tesla-partnership', 'source': 'Wired', 'date': '2023-04-10'}]}
+2025-04-11 23:21:38,476 - app.services.research_service - INFO - Completed research for: Tesla
+2025-04-11 23:21:38,476 - app.services.research_service - INFO - Completed batch research
